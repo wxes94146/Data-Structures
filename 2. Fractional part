@@ -1,0 +1,11 @@
+# Given a positive real number, print its fractional part. 
+# input Output
+# 1.79  7
+# 10.34 3
+# 0.001 0
+# 19.99 9
+
+a=float(input())
+b=int(a)
+x=a-b
+print(round(x,3))
