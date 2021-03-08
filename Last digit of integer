@@ -1,0 +1,9 @@
+# Given an integer number, print its last digit. 
+# input Output
+# 179   9
+# 1923  3
+# 5055  5
+# 2454  4
+
+a=int(input()) #input()=179
+print(a%10)
